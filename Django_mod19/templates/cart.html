@@ -1,0 +1,19 @@
+{% extends 'menu.html' %}
+
+{% block title %} {{ h1text}} {% endblock %}
+
+{% block pagename %}
+    {{ block.super }}
+{% endblock %}
+
+{% block menu %}
+    {{ block.super }}
+{% endblock %}
+
+{% block content %}
+    <h1>Извините, ваша корзина пуста</h1>
+{% endblock %}
+
+{% block registration %}
+    {{ block.super }}
+{% endblock %}
