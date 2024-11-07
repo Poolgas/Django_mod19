@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d545bff6-c063-45d9-8908-9af2bd818506" name="Changes" comment="">
+    <list default="true" id="d545bff6-c063-45d9-8908-9af2bd818506" name="Changes" comment="Домашнее задание по теме &quot;MVT. Вывод объектов в шаблоны&quot;.&#10;Цель: закрепить навыки создания представлений, шаблонов и вызовов QuerySet запросов. Понять как работают эти инструменты вместе (паттерн MVT).&#10;Задача &quot;Время объединять&quot;:">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_mod19/Django_mod19/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_mod19/Django_mod19/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_mod19/Django_mod19/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_mod19/Django_mod19/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_mod19/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Django_mod19/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Django_mod19/task1/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_mod19/task1/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_mod19/task1/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_mod19/task1/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,13 +33,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.1231.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.1231.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Python Projects For Urban\mod_19_Django\Django_mod19\task1" />
@@ -110,12 +107,29 @@
       <option name="project" value="LOCAL" />
       <updated>1730832579324</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Домашнее задание по теме &quot;MVT. Вывод объектов в шаблоны&quot;.&#10;Цель: закрепить навыки создания представлений, шаблонов и вызовов QuerySet запросов. Понять как работают эти инструменты вместе (паттерн MVT).&#10;Задача &quot;Время объединять&quot;:">
+      <option name="closed" value="true" />
+      <created>1730876878786</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730876878786</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Домашнее задание по теме &quot;MVT. Вывод объектов в шаблоны&quot;.&#10;Цель: закрепить навыки создания представлений, шаблонов и вызовов QuerySet запросов. Понять как работают эти инструменты вместе (паттерн MVT).&#10;Задача &quot;Время объединять&quot;:">
+      <option name="closed" value="true" />
+      <created>1730876966382</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730876966382</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Домашнее задание по теме &quot;Модели баз данных в Django.&quot;&#10;Цель: реализовать собственные ORM модели и научиться мигрировать их в базу данных.&#10;&#10;Задача &quot;Модели игрового магазина&quot;:" />
     <MESSAGE value="Домашнее задание по теме &quot;QuerySet запросы в базу данных&quot;Домашнее задание по теме &quot;QuerySet запросы в базу данных&quot;&#10;Цель: сделать первые записи в БД при помощи QuerySet запросов, закрепив знания о них.&#10;&#10;Задача &quot;Я буду устанавливать все игры!&quot;:" />
-    <option name="LAST_COMMIT_MESSAGE" value="Домашнее задание по теме &quot;QuerySet запросы в базу данных&quot;Домашнее задание по теме &quot;QuerySet запросы в базу данных&quot;&#10;Цель: сделать первые записи в БД при помощи QuerySet запросов, закрепив знания о них.&#10;&#10;Задача &quot;Я буду устанавливать все игры!&quot;:" />
+    <MESSAGE value="Домашнее задание по теме &quot;MVT. Вывод объектов в шаблоны&quot;.&#10;Цель: закрепить навыки создания представлений, шаблонов и вызовов QuerySet запросов. Понять как работают эти инструменты вместе (паттерн MVT).&#10;Задача &quot;Время объединять&quot;:" />
+    <option name="LAST_COMMIT_MESSAGE" value="Домашнее задание по теме &quot;MVT. Вывод объектов в шаблоны&quot;.&#10;Цель: закрепить навыки создания представлений, шаблонов и вызовов QuerySet запросов. Понять как работают эти инструменты вместе (паттерн MVT).&#10;Задача &quot;Время объединять&quot;:" />
   </component>
 </project>
