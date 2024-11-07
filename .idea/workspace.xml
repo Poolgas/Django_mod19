@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d545bff6-c063-45d9-8908-9af2bd818506" name="Changes" comment="Домашнее задание по теме &quot;MVT. Вывод объектов в шаблоны&quot;.&#10;Цель: закрепить навыки создания представлений, шаблонов и вызовов QuerySet запросов. Понять как работают эти инструменты вместе (паттерн MVT).&#10;Задача &quot;Время объединять&quot;:">
+    <list default="true" id="d545bff6-c063-45d9-8908-9af2bd818506" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_mod19/task1/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_mod19/task1/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_mod19/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Django_mod19/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +43,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Python Projects For Urban\mod_19_Django\Django_mod19" />
       <recent name="D:\Python Projects For Urban\mod_19_Django\Django_mod19\task1" />
     </key>
   </component>
@@ -123,13 +124,22 @@
       <option name="project" value="LOCAL" />
       <updated>1730876966382</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="change models.py charfield -&gt; PositiveIntegerField">
+      <option name="closed" value="true" />
+      <created>1731003854595</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731003854595</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Домашнее задание по теме &quot;Модели баз данных в Django.&quot;&#10;Цель: реализовать собственные ORM модели и научиться мигрировать их в базу данных.&#10;&#10;Задача &quot;Модели игрового магазина&quot;:" />
     <MESSAGE value="Домашнее задание по теме &quot;QuerySet запросы в базу данных&quot;Домашнее задание по теме &quot;QuerySet запросы в базу данных&quot;&#10;Цель: сделать первые записи в БД при помощи QuerySet запросов, закрепив знания о них.&#10;&#10;Задача &quot;Я буду устанавливать все игры!&quot;:" />
     <MESSAGE value="Домашнее задание по теме &quot;MVT. Вывод объектов в шаблоны&quot;.&#10;Цель: закрепить навыки создания представлений, шаблонов и вызовов QuerySet запросов. Понять как работают эти инструменты вместе (паттерн MVT).&#10;Задача &quot;Время объединять&quot;:" />
-    <option name="LAST_COMMIT_MESSAGE" value="Домашнее задание по теме &quot;MVT. Вывод объектов в шаблоны&quot;.&#10;Цель: закрепить навыки создания представлений, шаблонов и вызовов QuerySet запросов. Понять как работают эти инструменты вместе (паттерн MVT).&#10;Задача &quot;Время объединять&quot;:" />
+    <MESSAGE value="change models.py charfield -&gt; PositiveIntegerField" />
+    <option name="LAST_COMMIT_MESSAGE" value="change models.py charfield -&gt; PositiveIntegerField" />
   </component>
 </project>
