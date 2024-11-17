@@ -1,0 +1,55 @@
+<style>
+    .center {
+      text-align: center;
+    }
+
+    .pagination {
+      display: inline-block;
+    }
+
+    .pagination a {
+      color: black;
+      float: left;
+      padding: 4px 8px;
+      text-decoration: none;
+      transition: background-color .3s;
+      border: 1px solid #ddd;
+      margin: 0 4px;
+    }
+
+    .pagination a.active {
+      background-color: #4CAF50;
+      color: white;
+      border: 1px solid #4CAF50;
+    }
+
+    .pagination a:hover:not(.active) {background-color: #ddd;}
+</style>
+{% include 'change_paginate_by.html' %}
+{% if page_obj.has_other_pages %}
+<nav class="center">
+    <div class="pagination">
+        {% if page_obj.has_previous %}
+            <a href="?page=1">&laquo; first</a>
+            <a href="?page={{ page_obj.previous_page_number }}" aria-hidden="true">previous</a>
+        {% endif %}
+
+        {% for p in paginator.page_range %}
+            {% if page_obj.number == p %}
+                <span class="page-item active" aria-current="page"></span>
+                <a class="page-link" href="#">{{ p }}</a>
+            {% elif p >= page_obj.number|add:-1 and p <= page_obj.number|add:1 %}
+            <span class="page-item">
+                <a class="page-link" href="?page={{ p }}">{{ p }}</a>
+            </span>
+            {% endif %}
+        {% endfor %}
+
+        {% if page_obj.has_next %}
+            <a href="?page={{ page_obj.next_page_number }}">next</a>
+            <a href="?page={{ page_obj.paginator.num_pages }}" aria-hidden="true">last &raquo;</a>
+        {% endif %}
+
+    </div>
+</nav>
+{% endif %}

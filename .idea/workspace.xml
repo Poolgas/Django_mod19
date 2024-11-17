@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d545bff6-c063-45d9-8908-9af2bd818506" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Django_mod19/templates/change_paginate_by.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django_mod19/templates/pagination.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_mod19/Django_mod19/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_mod19/Django_mod19/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Django_mod19/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Django_mod19/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Django_mod19/task1/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_mod19/task1/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_mod19/task1/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_mod19/task1/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_mod19/task1/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_mod19/task1/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_mod19/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/Django_mod19/templates/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_mod19/templates/games.html" beforeDir="false" afterPath="$PROJECT_DIR$/Django_mod19/templates/games.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_mod19/templates/main_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/Django_mod19/templates/main_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_mod19/templates/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/Django_mod19/templates/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_mod19/templates/platform.html" beforeDir="false" afterPath="$PROJECT_DIR$/Django_mod19/templates/platform.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -37,9 +46,12 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;Python.1231.executor&quot;: &quot;Run&quot;,
+    &quot;Python.12312.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Python Projects For Urban/Practice&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
@@ -49,7 +61,7 @@
       <recent name="D:\Python Projects For Urban\mod_19_Django\Django_mod19\task1" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.12312">
     <configuration name="1231" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="mod_19_Django" />
       <option name="ENV_FILES" value="" />
@@ -72,8 +84,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="12312" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mod_19_Django" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Django_mod19/task1/migrations" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Django_mod19/task1/migrations/12312.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.12312" />
         <item itemvalue="Python.1231" />
       </list>
     </recent_temporary>
@@ -142,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731010983600</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Домашнее задание по теме &quot;Сайт администрирования">
+      <option name="closed" value="true" />
+      <created>1731023071153</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731023071153</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

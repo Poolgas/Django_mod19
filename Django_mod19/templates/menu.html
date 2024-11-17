@@ -5,30 +5,32 @@
     <title>{% block title %}Title{% endblock %}</title>
 </head>
 <body>
-    <header>
-        {% block pagename %}
-        <h1>{{ h1text }}</h1>
-        {% endblock %}
-    </header>
+<header>
+    {% block pagename %}
+    <h1>{{ h1text }}</h1>
+    {% endblock %}
+</header>
 
-    <main>
-        {% block registration %}
-            <a href="http://127.0.0.1:8000/reg_django"><button type="button">Зарегестрироваться</button></a>
-        {% endblock %}
-    </main>
-    <menu>
-        {% block menu %}
-        <h2><a href="/platform">Главная</a></h2>
-        <h2><a href="/platform/games">Магазин</a></h2>
-        <h2><a href="/platform/cart">Корзина</a></h2>
-        {% endblock %}
-    </menu>
+<main>
+    {% block registration %}
+    <a href="http://127.0.0.1:8000/reg_django">
+        <button type="button">Зарегестрироваться</button>
+    </a>
+    {% endblock %}
+</main>
+<menu>
+    {% block menu %}
+    <h2><a href="/platform">Главная</a></h2>
+    <h2><a href="/platform/games">Магазин</a></h2>
+    <h2><a href="/platform/cart">Корзина</a></h2>
+    {% endblock %}
+</menu>
 
-    <main>
-        {% block content %}
-        <!-- Your content here -->
-        {% endblock %}
-    </main>
+<main>
+    {% block content %}
+    {% include 'pagination.html' %}
+    {% endblock %}
+</main>
 
 </body>
 </html>

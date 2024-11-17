@@ -12,9 +12,7 @@ class BuyerAdmin(admin.ModelAdmin):
 
 @admin.register(Game)
 class GameAdmin(admin.ModelAdmin):
-    list_display = ('title', 'cost', 'size', 'description', 'age_limited')
+    list_display = ('title', 'cost', 'description', 'age_limited')
     list_filter = ('title', 'cost', 'age_limited')
     search_fields = ('title', 'cost', 'age_limited')
     list_per_page = 5
-
-

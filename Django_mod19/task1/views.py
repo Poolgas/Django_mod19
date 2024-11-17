@@ -1,7 +1,11 @@
 from django.shortcuts import render
+
 from .forms import UserRegister
 from django.http import HttpResponse
 from .models import *
+from django.views.generic import ListView
+
+
 # Create your views here.
 
 def main_page(request):
@@ -11,14 +15,21 @@ def main_page(request):
     }
     return render(request, 'main_page.html', context)
 
-def shop(request):
-    h1text = 'Игры'
-    games = Game.objects.all()
-    context = {
-        'h1text': h1text,
-        'games': games,
-    }
-    return render(request, 'games.html', context)
+
+class Shop(ListView):
+    paginate_by = 2
+    model = Game
+    template_name = 'games.html'
+
+    def get_context_data(self, *, object_list=None, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['h1text'] = 'Игры'
+        context['title'] = 'Игры'
+        return context
+
+    def get_paginate_by(self, queryset):
+        return self.request.GET.get("paginate_by", self.paginate_by)
+
 
 def cart(request):
     h1text = 'Корзина'
@@ -27,12 +38,14 @@ def cart(request):
     }
     return render(request, 'cart.html', context)
 
+
 def platform(request):
     h1text = 'Главная страница'
     context = {
         'h1text': h1text,
     }
     return render(request, 'platform.html', context)
+
 
 def sign_up_by_django(request):
     users = Buyer.objects.all()

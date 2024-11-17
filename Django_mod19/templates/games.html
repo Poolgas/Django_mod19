@@ -1,23 +1,28 @@
 {% extends 'menu.html' %}
-{% block title %} {{h1text}} {% endblock %}
+{% block title %} Игры {% endblock %}
 
 {% block pagename %}
-    {{ block.super }}
+{{ block.super }}
 {% endblock %}
 
 {% block menu %}
-    {{ block.super }}
+{{ block.super }}
 {% endblock %}
 
 {% block content %}
-    <ul>
-        {% for game in games %}
-            <li><p>{{ game.title }} | {{ game.description }}. Стоимость: {{ game.cost }} <button>Купить</button></p></li>
-        {% endfor %}
-    </ul>
-
+<hr size="2">
+<ul class="center">
+    {% for game in page_obj %}
+    <li>
+        <p>{{ game.title }} | {{ game.description }}. Стоимость: {{ game.cost }}
+            <button>Купить</button>
+        </p>
+    </li>
+    {% endfor %}
+</ul>
+{{ block.super }}
 {% endblock %}
 
 {% block registration %}
-    {{ block.super }}
+{{ block.super }}
 {% endblock %}

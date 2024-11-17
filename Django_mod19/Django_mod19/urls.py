@@ -22,7 +22,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', main_page),
     path('platform/', platform),
-    path('platform/games/', shop),
+    path('platform/games/', Shop.as_view(), name='Магазин'),
     path('platform/cart/', cart),
     path('reg_html/', sign_up_by_html),
     path('reg_django/', sign_up_by_django),
